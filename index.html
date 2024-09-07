@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!-- Meta-Informationen -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Seitentitel -->
+    <title><!-- Titel der Seite --></title>
+    
+    <!-- Meta-Description (sehr wichtig für SEO) -->
+    <meta name="description" content="<!-- Seitenbeschreibung, die in Suchmaschinen angezeigt wird -->">
+    
+    <!-- Meta-Keywords (optional) -->
+    <meta name="keywords" content="<!-- Schlüsselwörter, durch Kommas getrennt -->">
+
+    <!-- Canonical URL (Vermeidung von Duplicate Content) -->
+    <link rel="canonical" href="<!-- URL der aktuellen Seite -->">
+    
+    <!-- Open Graph Tags (für Social Media) -->
+    <meta property="og:title" content="<!-- Titel der Seite für Social Media -->">
+    <meta property="og:description" content="<!-- Beschreibung der Seite für Social Media -->">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<!-- URL der Seite -->">
+    <meta property="og:image" content="<!-- URL zu einem Bild, das in Social Media Previews angezeigt wird -->">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<!-- Titel der Seite für Twitter -->">
+    <meta name="twitter:description" content="<!-- Beschreibung der Seite für Twitter -->">
+    <meta name="twitter:image" content="<!-- URL zu einem Bild, das in Twitter Previews angezeigt wird -->">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+    
+    <!-- Alternative Favicons -->
+    <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="/path/to/android-touch-icon.png">
+    
+    <!-- Robots Meta-Tag -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- hreflang Tags (für mehrsprachige Seiten) -->
+    <link rel="alternate" hreflang="de" href="https://example.com/de/">
+    <link rel="alternate" hreflang="en" href="https://example.com/en/">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skiplink für Barrierefreiheit -->
+    <a class="skip-link" href="#maincontent">Zum Hauptinhalt springen</a>
+
+    <!-- Header-Bereich -->
+    <header role="banner">
+        <nav role="navigation" aria-label="Hauptnavigation">
+            <ul>
+                <li><a href="/">Startseite</a></li>
+                <li><a href="/about">Über uns</a></li>
+                <li><a href="/services">Dienstleistungen</a></li>
+                <li><a href="/contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hauptinhalt der Seite -->
+    <main id="maincontent" role="main">
+        <article>
+            <header>
+                <h1><!-- Titel des Artikels --></h1>
+                <p><!-- Veröffentlichungsdatum, Kategorie, Autor etc. --></p>
+            </header>
+
+            <section>
+                <h2><!-- Abschnittstitel --></h2>
+                <p><!-- Textabsatz --></p>
+            </section>
+
+            <section>
+                <h2><!-- Nächster Abschnittstitel --></h2>
+                <p><!-- Textabsatz --></p>
+            </section>
+
+            <footer>
+                <p><!-- Artikel-Fußzeile (z. B. Copyright, Quellen) --></p>
+            </footer>
+        </article>
+    </main>
+
+    <!-- Seitenleiste (optional) -->
+    <aside role="complementary" aria-label="Seitenleiste">
+        <section>
+            <h2><!-- Widget Titel --></h2>
+            <p><!-- Inhalt der Seitenleiste --></p>
+        </section>
+    </aside>
+
+    <!-- Footer-Bereich -->
+    <footer role="contentinfo">
+        <section aria-label="Kontaktinformationen">
+            <h2>Kontakt</h2>
+            <address>
+                <!-- Adresse, Telefon, E-Mail -->
+            </address>
+        </section>
+        <nav aria-label="Footer-Navigation">
+            <ul>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/datenschutz">Datenschutz</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <!-- Scripte am Ende des Body-Tags -->
+    <script src="scripts.js"></script>
+</body>
+</html>
